@@ -54,7 +54,7 @@ startigjen0 = 10
 let startigjen10 = 10
 basic.showNumber(tallet)
 basic.forever(function () {
-    music.ringTone(262)
+    music.ringTone(147)
     basic.pause(25)
     music.rest(music.beat(BeatFraction.Whole))
     basic.pause(9000)
