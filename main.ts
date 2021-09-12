@@ -15,7 +15,7 @@ basic.showLeds(`
     # # # # #
     `)
 basic.forever(function () {
-    music.ringTone(131)
+    music.ringTone(262)
     basic.pause(40)
     music.rest(music.beat(BeatFraction.Whole))
     basic.pause(6000)
